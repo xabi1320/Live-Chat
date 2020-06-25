@@ -1,0 +1,49 @@
+body {
+    background-color: rgba(55, 55, 55, 0.5);
+    background-attachment: fixed;
+}
+
+.container {
+    display: block;
+    width: 100%;
+    justify-content: center;
+}
+
+.container h1 {
+    text-align: center;
+    color: rgb(47, 107, 77);
+}
+
+#messages {
+    width: 95%;
+    max-width: 400px;
+    height: 350px;
+    margin: 0 auto;
+    overflow: auto;
+    border: 1px solid #eee;
+    border-radius: 3px;
+    box-shadow: 0 0 20px #ccc inset;
+    background-color: rgb(47, 107, 77);
+}
+
+.message {
+    margin: 20px;
+    padding: 5px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    background: #ffffff;
+}
+
+.container input,
+.container textarea {
+    display: block;
+    margin: 0 auto;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+.container input[type='submit'] {
+    cursor: pointer;
+}
